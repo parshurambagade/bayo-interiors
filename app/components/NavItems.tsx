@@ -23,7 +23,7 @@ const NavItems = () => {
 
   return (
     <div className='flex items-center justify-center gap-12'>
-        {navItems.map(item => <Link href={item.url} key={item.name} className='text-text text-sm leading-6 uppercase text-center font-semibold'>{item.name}</Link>)}
+        {navItems.map(item => <Link href={item.url} key={item.name} className='text-text active:text-blue-800 text-sm leading-6 uppercase text-center font-semibold'>{item.name}</Link>)}
     </div>
   )
 }
